@@ -1,8 +1,7 @@
-import { ButtonDropdown } from "./components/ButtonDropdown";
-import { Dropzone } from "./components/Dropzone";
 import { Footer } from "./components/Footer";
 import { Header } from "./components/Header";
 import { Hero } from "./components/Hero";
+import { MainComponent } from "./components/MainComponent";
 
 function App() {
   return (
@@ -11,11 +10,8 @@ function App() {
 
       <div className="px-6 sm:px-12 md:px-20 lg:px-24 2xl:px-40 flex-grow">
         <Hero />
-        <Dropzone />
-        <h5 className="text-center font-bold text-base sm:text-lg lg:text-2xl tracking-wide text-[#262626] dark:text-[#dadada]">Para:</h5>
-        <ButtonDropdown />
+        <MainComponent />
       </div>
-
       <Footer />
     </div>
   )
