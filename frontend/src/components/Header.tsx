@@ -25,10 +25,16 @@ export function Header() {
             return newMode
         })
     }
+
+    const handleReload = () => {
+        location.reload();
+    }
+
     return (
         <header className="flex justify-between items-center px-6 sm:px-12 md:px-20 lg:px-24 2xl:px-40 py-3 bg-white dark:bg-black border-b-2 border-[#e9e9e9] dark:border-[#181818]">
             <img
-                className="w-12 sm:w-16"
+                onClick={handleReload}
+                className="w-12 sm:w-16 cursor-pointer"
                 src={darkMode ? logoDark : logoLight}
                 alt="Logo" />
             <button
