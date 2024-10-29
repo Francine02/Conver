@@ -5,3 +5,8 @@
 .dark {
     background-color: black; 
 }
+
+* {
+    scrollbar-width: thin;         
+    scrollbar-color: #dadada #262626;
+}
