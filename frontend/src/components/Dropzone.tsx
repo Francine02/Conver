@@ -4,8 +4,8 @@ export function Dropzone({ onFileChange }: { onFileChange: (file: File) => void 
     const [file, setFile] = useState<File | null>(null);
     const [error, setError] = useState<string | null>(null);
 
-    const acceptedFileTypes = ["application/msword", "application/vnd.openxmlformats-officedocument.wordprocessingml.document", "application/vnd.oasis.opendocument.text"]; // Formatos de arquivos aceitos
-    const ERROR_MESSAGES = { unsupportedType: "Tipo de arquivo não suportado. Aceitamos apenas DOC, DOCX ou ODT." }
+    const acceptedFileTypes = ["application/msword", "application/vnd.openxmlformats-officedocument.wordprocessingml.document", "application/vnd.oasis.opendocument.text", "text/plain", "application/rtf"]; // Formatos de arquivos aceitos
+    const ERROR_MESSAGES = { unsupportedType: "Tipo de arquivo não suportado. Aceitamos apenas DOC, DOCX, TXT, RTF ou ODT." }
 
     const validateFileType = (file: File): boolean => { // Verifica se o arquivo é aceitavel, estando dentro do acceptedFileTypes e retorna um true para válidos
         return acceptedFileTypes.includes(file.type);
@@ -72,7 +72,7 @@ export function Dropzone({ onFileChange }: { onFileChange: (file: File) => void 
                         </p>
                         <p
                             className="text-xs text-[#868686] dark:text-[#828282]">
-                            DOC, DOCX ou ODT
+                            DOC, DOCX, TXT, RTF ou ODT
                         </p>
                     </div>
                     <input
