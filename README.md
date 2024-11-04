@@ -50,12 +50,18 @@ O backend do projeto foi desenvolvido por [George Victor](https://github.com/id0
 
 A API Conver Flask é uma aplicação web desenvolvida com Flask, projetada para facilitar a conversão de documentos em vários formatos. Ela oferece uma solução prática para usuários que precisam de conversão eficiente de arquivos.
 
+## 🔍 QA - Testes Automatizados
+Este projeto também inclui uma estrutura de Testes Automatizados, que foi realizado por [Michael Maia](https://github.com/qamichaelmaia) usando Cypress para garantir que diferentes formatos de arquivos sejam carregados e convertidos corretamente, proporcionando uma experiência de uso confiável e sem erros. Confira [aqui](https://github.com/qamichaelmaia/conver-test) o repositório.
+
 ## 🤝 Colaboração
 
 Este projeto foi desenvolvido com o suporte de [George Victor](https://github.com/id0ubl3g/conver-flask-api) para o backend, que gerencia o processamento e conversão dos arquivos. A divisão de responsabilidades foi:
 
 - **Frontend**: Responsável pela criação da interface e experiência do usuário.
 - **Backend**: API para o processamento dos arquivos e a lógica de conversão.
+
+### Agradecimentos especiais pela contribuição para este projeto:
+- [Michael Maia](https://github.com/qamichaelmaia) - Por realizar testes automatizados com Cypress para assegurar a confiabilidade do processo de conversão.
 
 **Conver** é mais do que um simples conversor: é uma experiência que alia velocidade e praticidade para o usuário final. Aproveite para transformar seus documentos com facilidade!
 
