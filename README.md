@@ -1,6 +1,11 @@
 <h1 align="center">
   <img src="./frontend/src/assets/logo-dark.png" width="100" align="center" />
   <br>Conver: Transforme Seus Documentos em Segundos!
+  <p>
+      <img src="https://img.shields.io/github/last-commit/Francine02/Conver?style=flat&logo=git&logoColor=white&color=000001" alt="Last Commit">
+      <img src="https://img.shields.io/github/languages/top/Francine02/Conver?style=flat&color=000001" alt="Top Language">
+      <img src="https://img.shields.io/github/languages/count/Francine02/Conver?style=flat&color=000001" alt="Languages Count">
+  </p>
 </h1>
 
 **Conver** é uma aplicação moderna e prática para conversão de arquivos. Com suporte a diversos formatos, o Conver foi projetado para transformar documentos rapidamente, proporcionando uma experiência de uso intuitiva e responsiva para o usuário. 
