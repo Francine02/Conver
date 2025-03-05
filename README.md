@@ -78,3 +78,7 @@ Conecte-se conosco nas redes sociais:
   
 - **LinkedIn**: [George Victor](https://www.linkedin.com/in/id0ubl3g/)
 - **GitHub**: [George Victor](https://github.com/id0ubl3g)
+
+## 📝 Licença
+
+Este projeto está licenciado sob a **Apache 2.0**. Consulte o arquivo [LICENSE](LICENSE) para mais detalhes.
